@@ -1,0 +1,35 @@
+html {
+  font-size: 22px;
+}
+
+main {
+  font-family: monospace;
+}
+
+h1,
+h2 {
+  color: blue;
+}
+
+p {
+  color: purple;
+}
+
+.text-gray {
+  color: gray;
+}
+
+#second {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* Bad Practice */
+/* p span {
+  background-color: gold;
+} */
+
+/* Good Practice */
+.text-highlight {
+  background-color: gold;
+}
