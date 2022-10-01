@@ -8,5 +8,5 @@
     Here also the class rule will apply because of class has more specifity than an element
 
 2.  All css rule does not inherite from their parent.
-3.  '\*' {} is called universal selector. It used for selected all elements. It is not used for inheritance.
+3.  \* {} is called universal selector. It used for selected all elements. It is not used for inheritance.
 4.  Do not use id selector (#) in css file. It is a bad practice.
