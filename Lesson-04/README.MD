@@ -8,10 +8,10 @@
         <li>
             <pre>
                 <code>
-                    <div>
-                        <p></p>
-                    </div>
-            </code>
+                    <'div>
+                        <'p></p>
+                    <'/div>
+                </code>
             </pre>
         </li>
         <li>
