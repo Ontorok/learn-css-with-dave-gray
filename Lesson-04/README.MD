@@ -6,11 +6,13 @@
         <li>em is relative to parent element</li>
         <li>let's set an example</li>
         <li>
-            <code>
-                <div>
-                    <p></p>
-                </div>
+            <pre>
+                <code>
+                    <div>
+                        <p></p>
+                    </div>
             </code>
+            </pre>
         </li>
         <li>
             <p>
@@ -18,7 +20,7 @@
             </p>
 
             <p>
-                But if we set div's font size is 2rem and p's font size is 2rem then there is a change we will see. div looking for the root element size (1rem or 16px) but p looking for its parent element size and in our case it is 2rem. Then p's font size will be 2rem  * 2 = 4rem or 64px. If p's font size is 0.5rem then its actual font size is 2rem * 0.5 = 1rem or 16px
+                But if we set div's font size is 2rem and p's font size is 2rem then there is a change we will see. div looking for the root element size (1rem or 16px) but p looking for its parent element size and in our case it is 2rem. Then p's font size will be 2rem  * 2 = 4rem or 64px. If p's font size is 0.5rem then its actual font size is 2rem * 0.5 = 1rem or 16px.
             </p>
         </li>
 
