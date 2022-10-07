@@ -6,13 +6,9 @@
         <li>em is relative to parent element</li>
         <li>let's set an example</li>
         <li>
-            <pre>
-                <code>
-                    <'div>
-                        <'p></p>
-                    <'/div>
-                </code>
-            </pre>
+            <'div>
+                <'p><'/p>
+            <'/div>
         </li>
         <li>
             <p>
