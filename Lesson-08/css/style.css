@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+  /* list-style-image: url("../checkmark.png"); */
+  list-style-position: inside;
+  /* list-style: square url("../checkmark.png") inside; */
+  text-align: center;
+}
+
+ul li:nth-child(odd) {
+  color: red;
+}
+
+ul ::marker {
+  color: bisque;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.8em;
+  content: "5$ only ";
+}
