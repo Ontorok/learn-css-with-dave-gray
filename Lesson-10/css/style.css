@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2rem;
+  font-family: monospace;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+  background-color: black;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+li a,
+li a:focus {
+  text-decoration: none;
+}
+
+li a:visited {
+  color: hsl(279, 100%, 50%);
+}
+
+li a:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+li a:active {
+  color: bisque;
+  text-decoration: none;
+}
