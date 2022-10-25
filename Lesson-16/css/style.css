@@ -88,3 +88,15 @@ body {
   padding: 0.25rem;
   border-radius: 10px; */
 }
+
+.clip {
+  font-weight: 800;
+  font-size: 18rem;
+  text-align: center;
+  background-image: url("../img/scenic-2200x1331.png");
+  background-size: 100%;
+  text-transform: uppercase;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
