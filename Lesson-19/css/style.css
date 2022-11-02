@@ -38,6 +38,7 @@ footer {
   background-color: #1e293b;
   color: whitesmoke;
   text-align: center;
+  z-index: 1;
 }
 
 header {
@@ -109,11 +110,48 @@ footer {
   border-radius: 50%;
 }
 
+.card img:not([alt]) {
+  border: 5px solid red;
+}
+
+.card:nth-child(even) {
+  background-color: papayawhip;
+}
+
 .card figcaption {
   font-weight: bolder;
   font-size: 2rem;
   margin: 0.5em;
   text-align: center;
+}
+
+.card figcaption::after {
+  content: " ✨";
+  display: block;
+}
+
+.card figcaption::first-letter {
+  font-size: 3rem;
+}
+
+.card p {
+  position: relative;
+}
+
+.card p::before {
+  content: open-quote;
+  font-size: 3em;
+  position: absolute;
+  top: -0.3em;
+  left: -0.4em;
+}
+
+.card p::after {
+  content: close-quote;
+  font-size: 3em;
+  position: absolute;
+  top: -0.3em;
+  right: -0.4em;
 }
 
 /* || SMALL */
